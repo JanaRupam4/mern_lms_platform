@@ -1,7 +1,9 @@
 {
   "name": "backend",
-  "module": "index.ts",
-  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.ts",
+    "prod": "node server.js"
+  },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
     "@types/bcryptjs": "^2.4.6",
